@@ -9,7 +9,7 @@ class VideoTranslator:
         """初始化视频翻译器
         
         Args:
-            api_key (str): deepseek API密钥
+            api_key (str): OpenAI API密钥
         """
         self.audio_extractor = AudioExtractor(video_path)
         self.subtitle_generator = SubtitleGenerator()
