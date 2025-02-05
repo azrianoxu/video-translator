@@ -8,7 +8,7 @@ class SubtitleTranslator:
         """初始化字幕翻译器
         
         Args:
-            api_key (str): deepseek API密钥
+            api_key (str): OpenAI API密钥
         """
         self.client = OpenAI(
             api_key=api_key,
